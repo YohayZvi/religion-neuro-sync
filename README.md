@@ -1,5 +1,6 @@
 # You Are What You Sync: Neural Synchronization Predicts Religious Affiliation
 **Authors**: Yohay Zvi¹*, Nitai Kerem¹, and Yaara Yeshurun¹,²*
+
 **Affiliations**: ¹Sagol School of Neuroscience, ²School of Psychological Sciences, Tel Aviv University
 
 ## Overview
