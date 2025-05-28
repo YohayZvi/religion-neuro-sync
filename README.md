@@ -9,6 +9,7 @@ This repository contains the code used for the Intersubject Correlation (ISC) an
 Behavioral and neuroimaging data will be made available in an OSF repository upon acceptance.
 
 ## Repository Structure 
+```
 ├── code
 │   ├── analysis
 │   │   ├── isc
@@ -20,6 +21,7 @@ Behavioral and neuroimaging data will be made available in an OSF repository upo
     └── behavioral
         ├── post_scan_questionnaire
         └── scanner_ratings
+```
 
 ## Contact        
 Questions or comments regarding the code and analyses can be directed to Yohay Zvi at yohayzvi@gmail.com.
