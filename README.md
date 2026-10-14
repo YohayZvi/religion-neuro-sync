@@ -10,7 +10,7 @@ This repository contains the code used for the Intersubject Correlation (ISC), S
 
 - Raw fMRI data (including anatomical images) will be available soon on OpenNeuro.
 
-- Preprocessed fMRI data and behavioral data are available in the following OSF repository: OSF repository ↗ (http://tiny.cc/OSF_repo).
+- Preprocessed fMRI data and behavioral data are available in the following OSF repository: OSF repository ↗ (https://osf.io/a9xqj/).
 
 ## Repository Structure 
 ```
