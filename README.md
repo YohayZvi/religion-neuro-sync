@@ -1,5 +1,5 @@
 # In-group neural alignment serves as a biomarker of social identity 
-**Authors**: Yohay Zvi¹*, Nitai Kerem¹, Eldad Aviv² and Yaara Yeshurun¹,²*
+**Authors**: Yohay Zvi¹*, Nitai Kerem¹, Eldad Aviv² and Yaara Yeshurun¹²*
 
 **Affiliations**: ¹Sagol School of Neuroscience, ²School of Psychological Sciences, Tel Aviv University
 
