@@ -8,9 +8,9 @@ This repository contains the code used for the Intersubject Correlation (ISC), S
 
 ## Data availability
 
-- Raw fMRI data (including anatomical images) is available on [OpenNeuro]([url](https://doi.org/10.18112/openneuro.ds008941.v1.0.0)).
+- Raw fMRI data (including anatomical images) is available on [OpenNeuro](https://doi.org/10.18112/openneuro.ds008941.v1.0.0).
 
-- Preprocessed fMRI data and behavioral data are available on [OSF]([url](https://osf.io/a9xqj/)). 
+- Preprocessed fMRI data and behavioral data are available on [OSF](https://osf.io/a9xqj/). 
 
 ## Repository Structure 
 ```
