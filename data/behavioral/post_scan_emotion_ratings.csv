@@ -1,0 +1,43 @@
+﻿ReligiousAffiliation,ForOrAgainst,neutral-happy,neutral-sad,neutral-fear,neutral-disgust,neutral-anger,neutral-surprise,ForOrAgainst,hammetz-happy,hammetz-sad,hammetz-fear,hammetz-disgust,hammetz-anger,hammetz-surprise,ForOrAgainst,kosher-happy,kosher-sad,kosher-fear,kosher-disgust,kosher-anger,kosher-surprise 
+religious, other,3,3,3,3,3,3, other,2,2,1,1,2,1, other,1,2,1,2,1,4
+religious,TRUE,1,3,1,1,1,2, other,1,4,1,1,3,2, other,1,2,1,1,3,2
+religious,TRUE,1,2,1,1,1,1,FALSE,2,2,1,2,2,1,TRUE,1,1,1,1,1,1
+religious, other,1,3,1,1,1,2,FALSE,1,2,1,1,1,2,TRUE,1,3,2,1,1,1
+religious, other,1,2,1,1,1,1,FALSE,3,2,1,1,2,2,FALSE,3,2,1,2,3,2
+religious, other,1,3,1,1,1,1, other,1,1,1,1,1,1, other,1,1,1,2,2,1
+religious,TRUE,1,3,3,1,1,1,FALSE,1,5,2,3,4,1,FALSE,1,4,3,3,4,2
+religious, other,3,1,1,1,1,2,FALSE,2,4,4,4,4,1,FALSE,1,3,4,5,5,1
+religious,FALSE,2,1,1,1,1,3,TRUE,2,1,1,1,2,3,TRUE,1,1,1,2,2,4
+religious,TRUE,1,2,1,1,1,1,FALSE,1,3,1,4,5,3,TRUE,1,1,1,2,3,2
+religious, other,1,1,1,1,1,1, other,1,2,1,1,2,1,FALSE,2,1,1,1,1,2
+religious,TRUE,3,2,1,1,1,5,TRUE,4,1,1,1,1,2,TRUE,1,4,4,1,3,1
+religious, other,1,2,2,1,1,2, other,1,1,1,1,1,2,FALSE,1,2,3,2,3,2
+religious,TRUE,3,1,1,1,1,1,TRUE,1,3,1,1,1,1, other,1,3,1,1,3,1
+religious, other,2,3,3,1,2,1,TRUE,1,4,1,2,2,2,FALSE,2,1,1,1,1,1
+religious,TRUE,3,2,3,1,1,1, other,1,4,1,1,3,1,FALSE,2,4,1,1,2,1
+religious, other,1,1,1,1,1,1,FALSE,1,4,2,3,3,1,FALSE,1,4,3,4,4,1
+religious, other,1,2,1,1,1,1,TRUE,1,3,1,1,2,1,FALSE,1,3,2,1,2,1
+religious,FALSE,2,2,2,1,2,1,TRUE,1,2,2,2,2,2,TRUE,2,1,2,2,3,2
+religious, other,1,4,4,1,1,1, other,1,5,4,2,3,1,TRUE,1,4,4,4,4,2
+religious, other,2,1,1,1,1,2,TRUE,1,2,1,1,1,1,TRUE,1,1,2,1,1,2
+secular,TRUE,1,3,2,1,2,1,FALSE,1,3,2,3,3,1,FALSE,1,3,2,4,4,1
+secular, other,1,2,2,1,1,3, other,1,2,2,1,4,2,TRUE,1,1,1,1,2,1
+secular,TRUE,1,3,4,1,4,2,FALSE,1,5,5,4,5,2,FALSE,1,5,5,5,5,1
+secular, other,2,3,1,1,1,2,FALSE,1,3,1,1,4,2,FALSE,1,2,1,1,4,2
+secular, other,1,1,1,1,1,1, other,1,1,1,1,2,3,FALSE,1,2,1,2,3,1
+secular,TRUE,2,3,2,2,1,2,FALSE,1,4,3,4,4,2,FALSE,1,3,3,4,4,3
+secular,TRUE,1,1,2,1,1,3,FALSE,1,1,1,1,4,1,FALSE,1,1,1,3,5,1
+secular,TRUE,1,2,2,1,1,1,FALSE,1,3,1,1,3,1,TRUE,1,1,1,1,1,1
+secular, other,3,1,1,1,1,2,FALSE,1,2,2,2,4,1,FALSE,1,1,1,1,1,1
+secular,TRUE,1,2,2,1,1,3,FALSE,1,4,2,3,4,2, other,1,1,1,1,1,1
+secular,TRUE,1,3,2,1,3,2,FALSE,1,3,2,2,4,1,FALSE,1,2,2,2,4,3
+secular, other,1,1,2,1,1,1, other,1,2,1,2,2,1, other,1,2,2,1,1,1
+secular,TRUE,1,4,2,1,2,1,FALSE,1,4,1,4,4,1,FALSE,1,2,1,2,2,1
+secular, other,3,1,1,1,1,1,FALSE,1,3,1,3,4,1,FALSE,1,2,1,3,4,2
+secular,TRUE,2,4,5,1,4,1,FALSE,1,4,2,2,5,1,FALSE,1,2,1,3,4,2
+secular, other,1,1,1,1,1,1,FALSE,1,1,1,1,1,2,FALSE,1,1,1,1,1,3
+secular, other,2,1,2,1,1,1,FALSE,1,3,1,2,4,1,FALSE,1,1,1,1,3,1
+secular,TRUE,1,4,4,4,4,1,FALSE,1,4,4,4,4,1,FALSE,1,4,5,3,4,2
+secular,TRUE,1,2,1,1,1,2,FALSE,1,3,1,1,4,1,FALSE,1,2,1,1,2,1
+secular, other,1,2,1,1,1,3,FALSE,1,3,1,1,3,2,FALSE,1,2,1,1,2,1
+secular,TRUE,3,3,1,1,1,1,FALSE,1,3,1,1,2,1,FALSE,1,1,1,1,1,1

@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article below."
+title: "In-group neural alignment serves as a biomarker of social identity: code and data"
+type: software
+license: MIT
+repository-code: "https://github.com/YohayZvi/religion-neuro-sync"
+url: "https://osf.io/a9xqj/"
+authors:
+  - family-names: Zvi
+    given-names: Yohay
+    email: yohayzvi@gmail.com
+    orcid: "https://orcid.org/0009-0002-3562-369X"
+    affiliation: "Sagol School of Neuroscience, Tel Aviv University"
+  - family-names: Kerem
+    given-names: Nitai
+    affiliation: "Sagol School of Neuroscience, Tel Aviv University"
+  - family-names: Aviv
+    given-names: Eldad
+    affiliation: "School of Psychological Sciences, Tel Aviv University"
+  - family-names: Yeshurun
+    given-names: Yaara
+    orcid: "https://orcid.org/0000-0002-0843-6998"
+    affiliation: "Sagol School of Neuroscience and School of Psychological Sciences, Tel Aviv University"
+keywords:
+  - neural synchronization
+  - inter-subject correlation
+  - fMRI
+  - social identity
+  - religion
+preferred-citation:
+  type: article
+  title: "In-group neural alignment serves as a biomarker of social identity"
+  journal: "Proceedings of the National Academy of Sciences"
+  year: 2026
+  authors:
+    - family-names: Zvi
+      given-names: Yohay
+      orcid: "https://orcid.org/0009-0002-3562-369X"
+    - family-names: Kerem
+      given-names: Nitai
+    - family-names: Aviv
+      given-names: Eldad
+    - family-names: Yeshurun
+      given-names: Yaara
+      orcid: "https://orcid.org/0000-0002-0843-6998"

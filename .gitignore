@@ -1,2 +1,16 @@
-/data/
+# large fMRI inputs (download from OSF, see data/README); kept_vox/ and svm_accuracy/ are tracked
+/data/fMRI/*
+!/data/fMRI/kept_vox/
+!/data/fMRI/svm_accuracy/
 .DS_Store
+
+# machine-specific paths (copy config_local_example.m)
+config_local.m
+
+# outputs written by the analysis scripts
+/results/*
+!/results/behavioral/
+
+# MATLAB autosave, Python cache
+*.asv
+__pycache__/

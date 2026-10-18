@@ -1,0 +1,10 @@
+# Python dependencies (text analysis and figures)
+# Versions are not pinned.
+pandas
+numpy
+scikit-learn
+tqdm
+torch
+sentence-transformers
+matplotlib
+seaborn
