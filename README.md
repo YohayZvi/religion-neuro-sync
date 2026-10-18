@@ -5,12 +5,16 @@
 
 Code and small data for the paper *In-group neural alignment serves as a biomarker of social identity* (PNAS, accepted; DOI pending).
 
-Forty-two participants (21 religious, 21 secular) watched three short news and social-media videos in the fMRI scanner: a neutral one (Neutral, about the weather) and two about religion in public life (Kosher, Chametz). This repository takes the preprocessed fMRI data and the behavioral and text responses to every number and figure in the paper:
+Forty-two participants (21 religious, 21 secular) watched three short videos in the fMRI scanner: one neutral (about the weather) and two about religion in public life (Kosher, Chametz).
 
-- within-group inter-subject correlation (ISC) and the Religious vs Secular comparison (Fig. 2A),
-- synchronized voxels per brain network (Fig. 2B),
-- a voxel-wise SVM that predicts group from ISC, with cluster-size correction (Fig. 2C),
-- behavioral ratings and the text analyses (LIWC; semantic similarity) (Fig. 1, SI).
+The code here starts from the preprocessed fMRI data and the participants' ratings and written answers, and reproduces every result in the paper:
+
+| Analysis | Figure |
+|---|---|
+| Inter-subject correlation (ISC) within each group; Religious vs Secular | Fig. 2A |
+| Synchronized voxels per brain network | Fig. 2B |
+| Predicting group from ISC (voxel-wise SVM) | Fig. 2C, Fig. S1 |
+| Ratings and text analyses (LIWC, semantic similarity) | Fig. 1, SI |
 
 ## Data
 
@@ -89,6 +93,10 @@ A full QA run should take well under two hours; most of the time goes to loading
 - **Cluster-size correction.** Clusters are 6-connected voxels above the accuracy threshold. The minimum cluster size is the 99.356th percentile of the sizes of all clusters (of any size) in the 1,000 null maps, pooled (`code/utils/cluster_size_threshold.m`): 39 / 41 / 43 voxels for Neutral / Kosher / Chametz. The setting was chosen from a tuning grid (SI Fig. S1): excluding null clusters of size ≤ 0, 1, 2 or 3 voxels × ten percentiles between 95 and 99.9 (`cfg.svm.gridExclude`, `cfg.svm.gridPercentiles`); the paper uses no exclusion and the 99.356th percentile. Step 04 writes the full grid to `results/svm/cluster_size_tuning_grid.csv` and plots it (`results/svm/figS1_cluster_size_tuning_grid.png`); all 120 settings reproduce the original 2024 grid results exactly.
 - **Clustering software.** The original analysis clustered with FSL (`cluster --connectivity=6`). MATLAB's `bwconncomp(…, 6)` gives identical clusters, on the real maps and on all 3 × 1,000 null maps, so FSL is not needed.
 - **LIWC sample.** LIWC was run on English translations of the responses. The analysis uses the 21 + 21 scanned participants; `liwc_features.csv` also contains 6 Secular respondents who were not scanned (`in_fmri_sample = 0`).
+
+## Use of AI
+
+When making this repository public after acceptance (October 2026), we used an AI assistant (Claude, Anthropic) for documentation and quality assurance (organizing the scripts, READMEs, file headers and the QA script). The analysis logic was not changed, and `run_all_QA.m` confirms that the code reproduces the original results exactly. All changes were reviewed by the first author.
 
 ## Citation
 
