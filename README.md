@@ -13,7 +13,7 @@ The code here starts from the preprocessed fMRI data and the participants' ratin
 |---|---|
 | Inter-subject correlation (ISC) within each group; Religious vs Secular | Fig. 2A |
 | Synchronized voxels per brain network | Fig. 2B |
-| Predicting group from ISC (voxel-wise SVM) | Fig. 2C, Fig. S1 |
+| Predicting group from ISC (voxel-wise SVM) | Fig. 2C |
 | Ratings and text analyses (LIWC, semantic similarity) | Fig. 1, SI |
 
 ## Data
@@ -34,11 +34,11 @@ code/
   step01_within_group_ISC.m        ISC per group and video, phase-randomisation null, FDR
   step02_ISC_group_comparison.m    overlap/unique voxels, t-tests, proportion tests     -> Fig. 2A
   step03_network_proportions.m     Brainnetome / Yeo-17 networks, network tests        -> Fig. 2B
-  step04_SVM_classification.m      leave-two-out SVM, label-shuffling null, clusters   -> Fig. 2C, Fig. S1
+  step04_SVM_classification.m      leave-two-out SVM, label-shuffling null, clusters   -> Fig. 2C
   step05_LIWC_group_differences.m  LIWC features, mean and variance tests              -> SI
   null_distributions/              code that generated the (large) null distributions
   text_analysis/                   semantic similarity (Python) and its statistics (R)  -> Fig. 1, SI
-  figures/                         Fig. 1 (R), Fig. 2B (Python), Fig. S1 (MATLAB, run by step 04)
+  figures/                         Fig. 1 (R), Fig. 2B (Python), SVM cluster-size tuning-grid (MATLAB, run by step 04)
   utils/                           shared functions, Brainnetome atlas, NIfTI toolbox
 data/
   behavioral/                      small CSVs used by steps 05, text_analysis and figures
