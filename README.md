@@ -3,7 +3,7 @@
 **Yohay Zvi¹\*, Nitai Kerem¹, Eldad Aviv² and Yaara Yeshurun¹²\***
 ¹ Sagol School of Neuroscience, ² School of Psychological Sciences, Tel Aviv University
 
-Code and small data for the paper *In-group neural alignment serves as a biomarker of social identity* (PNAS, accepted; DOI pending).
+Code and small data for the paper *In-group neural alignment serves as a biomarker of social identity* (PNAS,  https://www.pnas.org/doi/10.1073/pnas.2624145123).
 
 Forty-two participants (21 religious, 21 secular) watched three short videos in the fMRI scanner: one neutral (about the weather) and two about religion in public life (Kosher, Chametz).
 
